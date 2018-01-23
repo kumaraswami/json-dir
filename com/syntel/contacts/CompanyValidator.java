@@ -46,9 +46,9 @@ public class CompanyValidator {
 		primaryEmail = "youremail@myisp.domain";
 
 		secondaryEmail = null;
-if(secondaryEmail!=null)
+//if(secondaryEmail!=null)
 		isEmailValid =secondaryEmail.matches(emailRegexPattern);
-if(socialMedia!=null)
+//if(socialMedia!=null)
 		isFacebook =socialMedia.contains("FACEBOOK");
 
 		return true;
