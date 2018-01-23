@@ -11,7 +11,7 @@ public class CompanyDetails {
 	
 	private String getEmployeeName(Company comp) {
 		
-if(  comp!=null &&   comp.getEmployee()!=null &&   comp.getEmployee().getEmployeeName()!=null)
+//if(  comp!=null &&   comp.getEmployee()!=null &&   comp.getEmployee().getEmployeeName()!=null)
 		employeeName =  comp.getEmployee().getEmployeeName();
 		
 		return employeeName;
